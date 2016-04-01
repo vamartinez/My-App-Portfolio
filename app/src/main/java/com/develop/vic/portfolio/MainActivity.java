@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void showToast(View v) {
+    public void showToast(View v) {
         Toast.makeText(getApplicationContext(), "This button will launch" + ((Button) v).getText(), Toast.LENGTH_SHORT).show();
     }
 
